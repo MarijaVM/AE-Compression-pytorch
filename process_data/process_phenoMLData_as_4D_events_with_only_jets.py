@@ -3,7 +3,7 @@ import click
 import random
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import test_split
+from sklearn.model_selection import train_test_split
 
 @click.command()
 @click.option('--input_path',
